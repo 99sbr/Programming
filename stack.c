@@ -37,6 +37,19 @@ void Print()
     top=top-1;
   }
 }
+
+void Top()
+{
+  printf("%d\n",Stack[top]);
+}
+
+void IsEmpty()
+{
+  if(top==-1)
+  printf("True\n");
+  else
+  printf("False\n");
+}
 int main()
   {
     top=-1;
@@ -46,6 +59,9 @@ int main()
     Push(6);
     Pop();
     Pop();
-    Print();
+    Pop();
+    Pop();
+    Top();
+    IsEmpty();
 
   }
