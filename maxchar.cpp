@@ -20,7 +20,7 @@ int main()
     }
     int count[len];
     int max=0;
-    char  c='\0';
+    char c='\0';
     std::map<char,int> o;
     for (std::map<char,int>::iterator it=m.begin(); it!=m.end(); ++it)
     {
@@ -45,6 +45,5 @@ int main()
 		}
 	}
 	cout <<c<<" "<<max;
-	
     return 0;
 }
