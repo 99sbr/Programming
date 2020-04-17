@@ -1,0 +1,6 @@
+{
+  "python.pythonPath": "/usr/local/opt/python/bin/python3.7",
+  "editor.fontSize": 14,
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 10
+}
