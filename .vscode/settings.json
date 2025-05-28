@@ -1,6 +1,8 @@
 {
-  "python.pythonPath": "/usr/local/opt/python/bin/python3.7",
+  "python.pythonPath": "/Users/subir/.virtualenvs/base/bin/python",
   "editor.fontSize": 14,
   "files.autoSave": "afterDelay",
-  "files.autoSaveDelay": 10
+  "files.autoSaveDelay": 10,
+  "python.languageServer": "Microsoft",
+  "workbench.editor.enablePreview": false
 }
